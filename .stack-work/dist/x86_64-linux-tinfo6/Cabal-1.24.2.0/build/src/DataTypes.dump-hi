@@ -1,0 +1,310 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-10 02:06:53.07292035 UTC
+
+interface toychain-0.1.0.0-HYeZxx2GUkPCpzPjO4qsft:DataTypes [family instance module] 8002
+  interface hash: ee6c5af0d8a49b303b266b42468848dd
+  ABI hash: 28dfefa9cf941607791848eb8490db28
+  export-list hash: dc239914bd0cbcd3bf2accff0911832a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c586183b608c2c2e28311c5e57134537
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  DataTypes.Block{DataTypes.Block bhash index nonce phash stamp trans}
+  DataTypes.Blockchain
+  DataTypes.RunStateT{DataTypes.RunStateT runStateT}
+  DataTypes.Trans{DataTypes.Trans from tdata to}
+module dependencies:
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson c4ffdab72dacab8dd26de7f545ffe6e2
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.FromJSON c03a9b7f76f5b79c98f9772844a7c6da
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON 00655306197ee59420b12d61a5cfb238
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.State 749dca8ca0e6625b32091d445bd92b01
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.State.Lazy 371607e50dde46b5f4103b3ab334a497
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  $fFromJSONBlock ::
+    Data.Aeson.Types.FromJSON.FromJSON DataTypes.Block
+  DFunId
+98eb988a4eabeedd88e223ab7260963a
+  $fFromJSONTrans ::
+    Data.Aeson.Types.FromJSON.FromJSON DataTypes.Trans
+  DFunId
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  $fGenericBlock :: GHC.Generics.Generic DataTypes.Block
+  DFunId
+98eb988a4eabeedd88e223ab7260963a
+  $fGenericTrans :: GHC.Generics.Generic DataTypes.Trans
+  DFunId
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  $fShowBlock :: GHC.Show.Show DataTypes.Block
+  DFunId
+98eb988a4eabeedd88e223ab7260963a
+  $fShowTrans :: GHC.Show.Show DataTypes.Trans
+  DFunId
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  $fToJSONBlock :: Data.Aeson.Types.ToJSON.ToJSON DataTypes.Block
+  DFunId
+98eb988a4eabeedd88e223ab7260963a
+  $fToJSONTrans :: Data.Aeson.Types.ToJSON.ToJSON DataTypes.Trans
+  DFunId
+672cb707ca2cf6fded0a046823eeecb4
+  $tc'Block :: GHC.Types.TyCon
+f5164cb6e9a15fa6c3682be5b2b989e2
+  $tc'RunStateT :: GHC.Types.TyCon
+82be17725cfe4601222390d0de107af0
+  $tc'Trans :: GHC.Types.TyCon
+dba4875e0bf9bd0bdb83299c531ede10
+  $tcBlock :: GHC.Types.TyCon
+74b735c196b4123cf2b787766bb46e1e
+  $tcRunStateT :: GHC.Types.TyCon
+ba84014b7d7d6fcabe7d6b6083f65690
+  $tcTrans :: GHC.Types.TyCon
+e4c2bf8fdfa31dd5db8e3d90f2f254f9
+  $trModule :: GHC.Types.Module
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  data Block
+    = Block {index :: GHC.Types.Int,
+             trans :: [DataTypes.Trans],
+             stamp :: GHC.Types.Int,
+             bhash :: GHC.Base.String,
+             phash :: GHC.Base.String,
+             nonce :: GHC.Base.Maybe GHC.Types.Int}
+5eed93e133019a697001cf4b7fe18cef
+  type Blockchain = [DataTypes.Block]
+4fc65dae3b4a2ffb16a5abfc6f6d15b4
+  axiom Rep_Block::
+      GHC.Generics.Rep DataTypes.Block
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Block"
+               "DataTypes"
+               "toychain-0.1.0.0-HYeZxx2GUkPCpzPjO4qsft"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Block" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               ((GHC.Generics.S1
+                   ('GHC.Generics.MetaSel
+                      ('GHC.Base.Just "index")
+                      'GHC.Generics.NoSourceUnpackedness
+                      'GHC.Generics.NoSourceStrictness
+                      'GHC.Generics.DecidedLazy)
+                   (GHC.Generics.Rec0 GHC.Types.Int)
+                 GHC.Generics.:*: (GHC.Generics.S1
+                                     ('GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "trans")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy)
+                                     (GHC.Generics.Rec0 [DataTypes.Trans])
+                                   GHC.Generics.:*: GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "stamp")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0 GHC.Types.Int)))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "bhash")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.Base.String)
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "phash")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0 GHC.Base.String)
+                                                    GHC.Generics.:*: GHC.Generics.S1
+                                                                       ('GHC.Generics.MetaSel
+                                                                          ('GHC.Base.Just "nonce")
+                                                                          'GHC.Generics.NoSourceUnpackedness
+                                                                          'GHC.Generics.NoSourceStrictness
+                                                                          'GHC.Generics.DecidedLazy)
+                                                                       (GHC.Generics.Rec0
+                                                                          (GHC.Base.Maybe
+                                                                             GHC.Types.Int))))))
+98eb988a4eabeedd88e223ab7260963a
+  axiom Rep_Trans::
+      GHC.Generics.Rep DataTypes.Trans
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Trans"
+               "DataTypes"
+               "toychain-0.1.0.0-HYeZxx2GUkPCpzPjO4qsft"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Trans" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "from")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Base.String)
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "to")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.Base.String)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "tdata")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0 GHC.Base.String))))
+f1f17229a72dc6404b23e68032fda504
+  type role RunStateT nominal representational
+  newtype RunStateT s (m :: * -> *)
+    = RunStateT {runStateT :: forall a.
+                              Control.Monad.Trans.State.Lazy.StateT s m a -> m a}
+98eb988a4eabeedd88e223ab7260963a
+  data Trans
+    = Trans {from :: GHC.Base.String,
+             to :: GHC.Base.String,
+             tdata :: GHC.Base.String}
+48e0ead43a6c36411bd2f2abe1a5b3a4
+  bhash :: DataTypes.Block -> GHC.Base.String
+  RecSel Left DataTypes.Block
+34e965f4238b2d0c9c35834cd40157e4
+  from :: DataTypes.Trans -> GHC.Base.String
+  RecSel Left DataTypes.Trans
+70803f7324854df83d3375507b6716af
+  index :: DataTypes.Block -> GHC.Types.Int
+  RecSel Left DataTypes.Block
+76614507ccd869eb1b3724de62d4d401
+  nonce :: DataTypes.Block -> GHC.Base.Maybe GHC.Types.Int
+  RecSel Left DataTypes.Block
+9e7d6817fed39b3dad61b2f22848810d
+  phash :: DataTypes.Block -> GHC.Base.String
+  RecSel Left DataTypes.Block
+b48623ec1c250190c0cc9832ae4da018
+  runStateT ::
+    DataTypes.RunStateT s m
+    -> forall a. Control.Monad.Trans.State.Lazy.StateT s m a -> m a
+  RecSel Left DataTypes.RunStateT
+4f12f99ccba069f910ab14f969df7050
+  stamp :: DataTypes.Block -> GHC.Types.Int
+  RecSel Left DataTypes.Block
+0d38b1ce35b88efec777f47f69a7526d
+  tdata :: DataTypes.Trans -> GHC.Base.String
+  RecSel Left DataTypes.Trans
+39cf7f8ba19f2a43e3fb45f3ae38f1f8
+  to :: DataTypes.Trans -> GHC.Base.String
+  RecSel Left DataTypes.Trans
+b7cb1934081d8e6d495a8f3eeb131efd
+  trans :: DataTypes.Block -> [DataTypes.Trans]
+  RecSel Left DataTypes.Block
+instance Data.Aeson.Types.FromJSON.FromJSON [DataTypes.Block]
+  = DataTypes.$fFromJSONBlock
+instance Data.Aeson.Types.FromJSON.FromJSON [DataTypes.Trans]
+  = DataTypes.$fFromJSONTrans
+instance GHC.Generics.Generic [DataTypes.Block]
+  = DataTypes.$fGenericBlock
+instance GHC.Generics.Generic [DataTypes.Trans]
+  = DataTypes.$fGenericTrans
+instance GHC.Show.Show [DataTypes.Block] = DataTypes.$fShowBlock
+instance GHC.Show.Show [DataTypes.Trans] = DataTypes.$fShowTrans
+instance Data.Aeson.Types.ToJSON.ToJSON [DataTypes.Block]
+  = DataTypes.$fToJSONBlock
+instance Data.Aeson.Types.ToJSON.ToJSON [DataTypes.Trans]
+  = DataTypes.$fToJSONTrans
+family instance GHC.Generics.Rep [DataTypes.Block]
+  = DataTypes.Rep_Block
+family instance GHC.Generics.Rep [DataTypes.Trans]
+  = DataTypes.Rep_Trans
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,327 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-09 17:36:41.508535868 UTC
+
+interface project-0.1.0.0-7pVzG0gkLbiEi2EGtNZNu4:Lib [family instance module] 8002
+  interface hash: 1d8e9436a8d310c3531b4e0f3370beca
+  ABI hash: d5c66efbb0dc570cabfe869aa7cf63dd
+  export-list hash: ddd767b4a481c93c733dc304ba52a2ea
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b096d8197f7c1efbb8e2623dc5b6dda2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.Block{Lib.Block bhash nonce phash stamp trans}
+  Lib.Hash
+  Lib.Name
+  Lib.Stamp
+  Lib.Trans{Lib.Trans bdata from to}
+module dependencies:
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cryptonite-0.23@cryptonite-0.23-5XFqcWr0WsWKto4nrYPCMQ
+                      data-accessor-0.2.2.7@data-accessor-0.2.2.7-4qt9kbhlqc22eurok1PC3k
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ
+                      distributed-process-p2p-0.1.4.0@distributed-process-p2p-0.1.4.0-AZ5PD3F7IyiEMiwG7CVAHi
+                      distributed-static-0.3.8@distributed-static-0.3.8-DaoqC21aiIYCl9NBEF0fXi
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      memory-0.14.11@memory-0.14.11-8AGdHgntVnC94lQ3k423XF
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-transport-0.5.2@network-transport-0.5.2-C5qvioPDY0j34GsMszZ4XS
+                      network-transport-tcp-0.6.0@network-transport-tcp-0.6.0-7iLvIeYSyDD2vdhEdZYK1N
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      rank1dynamic-0.3.3.0@rank1dynamic-0.3.3.0-Dc2KQPZw4y91X07lv5KN1b
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.BoxedArray
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Monad
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.MutableBuilder
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Nat
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.NonEmpty
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Numerical.Subtractive
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ASCII7
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF16
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF32
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.AsciiString
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.OffsetSize
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UTF8.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ:Control.Distributed.Process.Internal.Types
+                         distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ:Control.Distributed.Process.Management.Internal.Trace.Types
+                         distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ:Control.Distributed.Process.Management.Internal.Types
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Bitmap
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Buildable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Element
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Keyed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Mutable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         network-transport-0.5.2@network-transport-0.5.2-C5qvioPDY0j34GsMszZ4XS:Network.Transport
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson c4ffdab72dacab8dd26de7f545ffe6e2
+import  -/  base-4.9.1.0:Data.IORef 71c87b0b25a8bca3e3f4497725f5e543
+import  -/  base-4.9.1.0:Data.Word 77f42e01d0fb6b071f1ea2176d87fa6c
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:Unsafe.Coerce 04e2cc33f45c897c8f9bc8758fbe5bc2
+import  -/  binary-0.8.3.0@binary-0.8.3.0:Data.Binary 04731cb24bdd2d171e280dacabbc5b93
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString 43e99fdac51908da414a28958688da64
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Internal 89cda42ec946d9d6577dd41ab95d523e
+import  -/  cryptonite-0.23@cryptonite-0.23-5XFqcWr0WsWKto4nrYPCMQ:Crypto.Hash 286b2a214f86d231e13d9bc9c0cc461a
+import  -/  cryptonite-0.23@cryptonite-0.23-5XFqcWr0WsWKto4nrYPCMQ:Crypto.Hash.SHA256 0b17e49183a35bf099dd2ce1cb31c27f
+import  -/  cryptonite-0.23@cryptonite-0.23-5XFqcWr0WsWKto4nrYPCMQ:Crypto.Hash.Types effe87d8a93054f2d8d52e115bff2bc0
+import  -/  distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ:Control.Distributed.Process 13d5b931aa7e1a829740d91611610327
+import  -/  distributed-process-0.7.4@distributed-process-0.7.4-A1EfalnFt3eDadxnFfZGrJ:Control.Distributed.Process.Node 4e417cb9f10590122b8fc24bf1a25351
+import  -/  distributed-process-p2p-0.1.4.0@distributed-process-p2p-0.1.4.0-AZ5PD3F7IyiEMiwG7CVAHi:Control.Distributed.Backend.P2P b08a2b51b142c3707e0831c76170ad7c
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text e8aa34be3dde178f567ae461e65c988b
+4d3e6c2829108c52877704b379274383
+  $fEqBlock :: GHC.Classes.Eq Lib.Block
+  DFunId
+79e416434c1fc2cae49d9cb0e7bc4866
+  $fEqTrans :: GHC.Classes.Eq Lib.Trans
+  DFunId
+4d3e6c2829108c52877704b379274383
+  $fGenericBlock :: GHC.Generics.Generic Lib.Block
+  DFunId
+79e416434c1fc2cae49d9cb0e7bc4866
+  $fGenericTrans :: GHC.Generics.Generic Lib.Trans
+  DFunId
+4d3e6c2829108c52877704b379274383
+  $fShowBlock :: GHC.Show.Show Lib.Block
+  DFunId
+79e416434c1fc2cae49d9cb0e7bc4866
+  $fShowTrans :: GHC.Show.Show Lib.Trans
+  DFunId
+a0bc94581f70f7b956e6d71ab2e493e8
+  $tc'Block :: GHC.Types.TyCon
+fff822e8429b62bde93063f8c1b0cacb
+  $tc'Trans :: GHC.Types.TyCon
+2a66268d1984381d34ec2a01b3a2b3a7
+  $tcBlock :: GHC.Types.TyCon
+eaa2ced0ddc2b292f7169e148bad6aff
+  $tcTrans :: GHC.Types.TyCon
+eaab8f574ac046d5036d3706f5626b15
+  $trModule :: GHC.Types.Module
+4d3e6c2829108c52877704b379274383
+  data Block
+    = Block {stamp :: Lib.Stamp,
+             trans :: Lib.Trans,
+             phash :: Lib.Hash,
+             bhash :: Lib.Hash,
+             nonce :: GHC.Types.Int}
+7fead067e70759ce4d589e9dea7cf51d
+  type Hash =
+    GHC.Base.Maybe (Crypto.Hash.Types.Digest Crypto.Hash.SHA256.SHA256)
+a533f6c5df10f10bc851e66c350415ec
+  type Name = Data.ByteString.Internal.ByteString
+4d3e6c2829108c52877704b379274383
+  axiom Rep_Block::
+      GHC.Generics.Rep Lib.Block
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Block"
+               "Lib"
+               "project-0.1.0.0-7pVzG0gkLbiEi2EGtNZNu4"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Block" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               ((GHC.Generics.S1
+                   ('GHC.Generics.MetaSel
+                      ('GHC.Base.Just "stamp")
+                      'GHC.Generics.NoSourceUnpackedness
+                      'GHC.Generics.NoSourceStrictness
+                      'GHC.Generics.DecidedLazy)
+                   (GHC.Generics.Rec0 Lib.Stamp)
+                 GHC.Generics.:*: GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "trans")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 Lib.Trans))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "phash")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 Lib.Hash)
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "bhash")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0 Lib.Hash)
+                                                    GHC.Generics.:*: GHC.Generics.S1
+                                                                       ('GHC.Generics.MetaSel
+                                                                          ('GHC.Base.Just "nonce")
+                                                                          'GHC.Generics.NoSourceUnpackedness
+                                                                          'GHC.Generics.NoSourceStrictness
+                                                                          'GHC.Generics.DecidedLazy)
+                                                                       (GHC.Generics.Rec0
+                                                                          GHC.Types.Int)))))
+79e416434c1fc2cae49d9cb0e7bc4866
+  axiom Rep_Trans::
+      GHC.Generics.Rep Lib.Trans
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Trans"
+               "Lib"
+               "project-0.1.0.0-7pVzG0gkLbiEi2EGtNZNu4"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Trans" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "from")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 Lib.Name)
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "to")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 Lib.Name)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "bdata")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0
+                                                        Data.ByteString.Internal.ByteString))))
+f959b30f9f9bdb82aaf6088616742150
+  type Stamp = GHC.Types.Int
+79e416434c1fc2cae49d9cb0e7bc4866
+  data Trans
+    = Trans {from :: Lib.Name,
+             to :: Lib.Name,
+             bdata :: Data.ByteString.Internal.ByteString}
+403f462f18bce24f184096581913ab2d
+  bdata :: Lib.Trans -> Data.ByteString.Internal.ByteString
+  RecSel Left Lib.Trans
+5f38039cb9cf7524afbe547e00708c02
+  bhash :: Lib.Block -> Lib.Hash
+  RecSel Left Lib.Block
+946923cc4b5b5197e8e9655c3c537f2e
+  from :: Lib.Trans -> Lib.Name
+  RecSel Left Lib.Trans
+2b3a965150572c46c5100e7f6f04f8ad
+  nonce :: Lib.Block -> GHC.Types.Int
+  RecSel Left Lib.Block
+da0db5c5faf2f678e60c72dc39ccfee4
+  phash :: Lib.Block -> Lib.Hash
+  RecSel Left Lib.Block
+16f7b1d9067da4338d83f2e1a122bed0
+  stamp :: Lib.Block -> Lib.Stamp
+  RecSel Left Lib.Block
+06006ca422778315230cda5839d44e8b
+  to :: Lib.Trans -> Lib.Name
+  RecSel Left Lib.Trans
+a37be76ff9d3f4214f51780426acb2c7
+  trans :: Lib.Block -> Lib.Trans
+  RecSel Left Lib.Block
+instance GHC.Classes.Eq [Lib.Block] = Lib.$fEqBlock
+instance GHC.Classes.Eq [Lib.Trans] = Lib.$fEqTrans
+instance GHC.Generics.Generic [Lib.Block] = Lib.$fGenericBlock
+instance GHC.Generics.Generic [Lib.Trans] = Lib.$fGenericTrans
+instance GHC.Show.Show [Lib.Block] = Lib.$fShowBlock
+instance GHC.Show.Show [Lib.Trans] = Lib.$fShowTrans
+family instance GHC.Generics.Rep [Lib.Block] = Lib.Rep_Block
+family instance GHC.Generics.Rep [Lib.Trans] = Lib.Rep_Trans
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,20 @@
+Configuring weeder-1.0.8...
+Preprocessing library for weeder-1.0.8..
+Building library for weeder-1.0.8..
+[ 1 of 10] Compiling Paths_weeder     ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/autogen/Paths_weeder.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Paths_weeder.o )
+[ 2 of 10] Compiling CmdLine          ( src/CmdLine.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/CmdLine.o )
+[ 3 of 10] Compiling Str              ( src/Str.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Str.o )
+[ 4 of 10] Compiling Util             ( src/Util.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Util.o )
+[ 5 of 10] Compiling Stack            ( src/Stack.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Stack.o )
+[ 6 of 10] Compiling Hi               ( src/Hi.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Hi.o )
+[ 7 of 10] Compiling Cabal            ( src/Cabal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Cabal.o )
+[ 8 of 10] Compiling Warning          ( src/Warning.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Warning.o )
+[ 9 of 10] Compiling Check            ( src/Check.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Check.o )
+[10 of 10] Compiling Weeder           ( src/Weeder.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Weeder.o )
+Preprocessing executable 'weeder' for weeder-1.0.8..
+Building executable 'weeder' for weeder-1.0.8..
+[1 of 1] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/weeder/weeder-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/weeder/weeder ...
+Installing library in /home/xnor/.stack/snapshots/x86_64-linux-tinfo6/lts-12.19/8.4.4/lib/x86_64-linux-ghc-8.4.4/weeder-1.0.8-E9R9BdeYeLPIhRPoM4CDFQ
+Installing executable weeder in /home/xnor/.stack/snapshots/x86_64-linux-tinfo6/lts-12.19/8.4.4/bin
+Registering library for weeder-1.0.8..

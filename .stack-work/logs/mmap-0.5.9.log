@@ -1,0 +1,6 @@
+Configuring mmap-0.5.9...
+Preprocessing library for mmap-0.5.9..
+Building library for mmap-0.5.9..
+[1 of 1] Compiling System.IO.MMap   ( System/IO/MMap.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/IO/MMap.o )
+Installing library in /home/xnor/.stack/snapshots/x86_64-linux-tinfo6/lts-12.19/8.4.4/lib/x86_64-linux-ghc-8.4.4/mmap-0.5.9-9nOKuIwcO6Aur4PCcnJVp
+Registering library for mmap-0.5.9..

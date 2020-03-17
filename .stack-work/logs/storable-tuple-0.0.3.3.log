@@ -1,0 +1,6 @@
+Configuring storable-tuple-0.0.3.3...
+Preprocessing library for storable-tuple-0.0.3.3..
+Building library for storable-tuple-0.0.3.3..
+[1 of 1] Compiling Foreign.Storable.Tuple ( src/Foreign/Storable/Tuple.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Foreign/Storable/Tuple.o )
+Installing library in /home/xnor/.stack/snapshots/x86_64-linux-tinfo6/lts-12.19/8.4.4/lib/x86_64-linux-ghc-8.4.4/storable-tuple-0.0.3.3-wN2on5fJcq1M2jAmnO4MU
+Registering library for storable-tuple-0.0.3.3..
